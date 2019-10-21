@@ -23,8 +23,7 @@
 
 .column {
     float: left;
-    padding: 0 15px;
-    
+    padding: 0 15px;    
     height: 500px;
 }
 
@@ -212,23 +211,19 @@ img.helbizg-foto {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 200px;
+    margin-top: 400px;
     position: relative;
 }
 
-.phoneslider {
-    
-    width: 1260px;
-    position: absolute;
-    margin-top: 200px;
-}
 
 .iphone-foto {
-    width: 30%;
+    
+    width: 20%;
     display: block;    
     margin: 0 auto;
     position: relative;
-    
+    top: 200px;
+        
 }
 
 .slider-bottom-iphone {
@@ -257,3 +252,52 @@ img.helbizg-foto {
     margin-top: 40px;
         
 }
+
+#fourth {
+    
+    width: 1490px;
+    height: 500px;
+    background-image: url('https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 200px;
+            
+}
+
+.text-one-column {
+    
+    color: white;
+    text-align: center;
+    float: right;
+                
+}
+
+.text-one-column h2 {
+    font-size: 42px;
+    margin-top: 30%;
+    
+}
+
+.text-one-column p {
+    
+    font-size: 21px;
+    padding: 20px;
+            
+}
+
+ .text-one-column a {
+     
+    color: white;
+}
+
+.text-one-column i {
+    color: white;
+}
+
+.text-one-column a:hover  {
+    
+    color: white;
+    text-decoration: underline;
